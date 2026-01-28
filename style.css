@@ -1,31 +1,61 @@
 body {
-  font-family: Arial, sans-serif;
-  background: #f4f4f4;
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+  background: #f9f9f9;
   color: #333;
-  text-align: center;
-  padding: 50px;
+  margin: 0;
 }
 
-input, select, button {
-  padding: 10px;
-  margin: 5px;
+nav {
+  background: #1a73e8;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 20px;
+  font-weight: 600;
   font-size: 16px;
 }
 
+nav a:hover {
+  text-decoration: underline;
+}
+
+.content {
+  max-width: 800px;
+  margin: 30px auto;
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+input, select, button {
+  padding: 10px 12px;
+  margin: 5px 2px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
 button {
-  cursor: pointer;
-  background: #4CAF50;
+  background: #1a73e8;
   color: white;
   border: none;
-  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 600;
 }
 
 button:hover {
-  background: #45a049;
+  background: #155ab6;
 }
 
 #wynik {
-  margin-top: 20px;
-  font-weight: bold;
+  margin-top: 15px;
   font-size: 18px;
+  font-weight: bold;
 }
+
