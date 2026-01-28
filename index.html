@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wymiana walut MC</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Symulator walut MC</h1>
+  <h2>Wymiana walut</h2>
+
+  <input id="ilosc" type="number" placeholder="Ilość">
+  
+  <select id="from">
+    <option>ZP</option>
+    <option>ZW</option>
+    <option>MN</option>
+    <option>FN</option>
+    <option>DN</option>
+    <option>FF</option>
+    <option>KUK</option>
+  </select>
+  
+  <span>→</span>
+  
+  <select id="to">
+    <option>ZP</option>
+    <option>ZW</option>
+    <option>MN</option>
+    <option>FN</option>
+    <option>DN</option>
+    <option>FF</option>
+    <option>KUK</option>
+  </select>
+  
+  <button onclick="oblicz()">Wymień</button>
+  
+  <p id="wynik"></p>
+
+  <script src="script.js"></script>
+</body>
+</html>
