@@ -3,40 +3,22 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Wymiana walut MC</title>
+  <title>Serwer MC - Waluty</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Symulator walut MC</h1>
-  <h2>Wymiana walut</h2>
 
-  <input id="ilosc" type="number" placeholder="Ilość">
-  
-  <select id="from">
-    <option>ZP</option>
-    <option>ZW</option>
-    <option>MN</option>
-    <option>FN</option>
-    <option>DN</option>
-    <option>FF</option>
-    <option>KUK</option>
-  </select>
-  
-  <span>→</span>
-  
-  <select id="to">
-    <option>ZP</option>
-    <option>ZW</option>
-    <option>MN</option>
-    <option>FN</option>
-    <option>DN</option>
-    <option>FF</option>
-    <option>KUK</option>
-  </select>
-  
-  <button onclick="oblicz()">Wymień</button>
-  
-  <p id="wynik"></p>
+  <nav>
+    <a href="#" onclick="showPage('home')">Strona Główna</a>
+    <a href="#" onclick="showPage('waluty')">Waluty Serwera</a>
+    <a href="#" onclick="showPage('ogloszenia')">Ogłoszenia</a>
+    <a href="#" onclick="showPage('kontakt')">Kontakt</a>
+  </nav>
+
+  <div class="content" id="content">
+    <h1>Witaj na stronie Serwera MC!</h1>
+    <p>Wybierz z menu powyżej sekcję, aby przejść dalej.</p>
+  </div>
 
   <script src="script.js"></script>
 </body>
